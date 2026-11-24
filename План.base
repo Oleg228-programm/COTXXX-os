@@ -1,0 +1,8 @@
+views:
+  - type: table
+    name: представление
+  - type: kanban
+    name: Статы
+    groupBy:
+      property: file.size
+      direction: ASC
